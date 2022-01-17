@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<npc name="Józef">
+    <dialogue id="0">
+        <text>
+            Witaj, wędrowcze. Co cię sprowadza do tej krainy?
+        </text>
+        <response nextDialogue="1">
+            Przychodzę z pokojowymi zamiarami. Mogę o coś zapytać?
+        </response>
+        <response nextDialogue="2">
+            Masz dla mnie jakieś zadanie?
+        </response>
+        <response nextDialogue="5" accessibility="false">
+            Przyniosłem o co prosiłeś.
+        </response>
+    </dialogue>
+    <dialogue id="1">
+        <text>
+            Pytaj.
+        </text>
+        <response nextDialogue="0">
+            Rozmyśliłem się...
+        </response>
+        <response nextDialogue="3">
+            Co to za miejsce?
+        </response>
+    </dialogue>
+    <dialogue id="2">
+        <text>
+            Przynieś mi jakiś pancerz.
+        </text>
+        <response nextDialogue="4">
+            Już się robi.
+        </response>
+    </dialogue>
+    <dialogue id="3">
+        <text>
+            Ta kraina jest opanowana przez złe istoty. Każda para rąk przyda się do walki z nimi.
+        </text>
+        <response nextDialogue="0">
+            Dzięki za informacje...
+        </response>
+    </dialogue>
+    <dialogue id="4">
+        <text>
+            Dziękuję, że chcesz mi pomóc.
+        </text>
+        <response nextDialogue="0">
+            Chcę cię jeszcze o coś spytać.
+        </response>
+    </dialogue>
+    <dialogue id="5">
+        <text>
+            To miłe, że przyniosłeś to, o co prosiłem. Zajdź do mojego brata, Fryderyka, może będzie miał dla ciebie zadanie.
+        </text>
+        <response nextDialogue="0">
+            Dzięki za informacje. Porozmawiajmy o czymś jeszcze.
+        </response>
+    </dialogue>
+</npc>

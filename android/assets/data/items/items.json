@@ -1,0 +1,42 @@
+{
+  items: [
+    CometSword: {
+      class: com.pupilla.dpk.Backend.items.WarWeapon,
+      name: "Comet Sword",
+      texture: "swordofdoom",
+      energyDamage: 85,
+      souldDamage: 0,
+      fireDamage: 0,
+      hitDamage: 35,
+      iceDamage: 0
+    },
+    TempestRod: {
+      class: com.pupilla.dpk.Backend.items.WizWeapon,
+      name: "Tempest Rod",
+      texture: "dagger_green",
+      energyDamage: 150,
+      souldDamage: 0,
+      fireDamage: 0,
+      hitDamage: 5,
+      iceDamage: 0,
+      "manaConsume": 14
+    },
+
+
+    BrassHelmet: {
+      class: com.pupilla.dpk.Backend.items.Head,
+      name: "Brass Helmet",
+      texture: "dagger_green",
+      energy: 0,
+      sould: 0,
+      fire: 5,
+      hit: 10,
+      ice: 0,
+    }
+
+
+
+
+
+  ]
+}
